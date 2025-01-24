@@ -10,7 +10,7 @@ console.log('Hello World');
 // let sys_device = "sysInfo-240D6Br2EA-7zFXY"
 let sys_device = "sysInfo-5e_Mnlaj7fw1DhrF"
 
-fetch(`https://fire-detection-xharf.herokuapp.com/sysinfo/${sys_device}`)
+fetch(`https://fire-guard.up.railway.app`)
     .then(response => response.json())
     .then(({
       data: {

@@ -3,7 +3,7 @@ console.log('Hello World');
 let sys_device = "sysInfo-5e_Mnlaj7fw1DhrF"
 setInterval(function () {
   
-  fetch(`https://fire-detection-xharf.herokuapp.com/datahistory/sid/${sys_device}`)
+  fetch(`https://fire-guard.up.railway.app`)
     .then(response => response.json())
     .then(({data:{dataHistory}}) => {
       document.getElementById('content').innerHTML = '';
